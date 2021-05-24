@@ -1,0 +1,22 @@
+<%- include('partials/header.ejs') %>
+
+
+<h1>Compose</h1>
+<form action="/compose" method="POST">
+    <label class="blockme" for="posttitle">Title</label>
+    <input class="form-control form-control-lg" type="text" name="posttitle" autocomplete="off">
+    <label class="blockme" for="post">Post</label>
+    <textarea class="form-control " name="postBody"  rows="7" autocomplete="off"></textarea><br>
+    <button  type="submit" name="p" class="blockme btn btn-primary">Publish!</button>
+</form>
+
+
+
+
+
+
+
+
+
+
+<%- include('partials/footer.ejs') %>
